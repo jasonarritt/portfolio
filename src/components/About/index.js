@@ -9,16 +9,24 @@ function About() {
         <h1 id="about">About Me</h1>
         <img
           src={ProfilePic}
-          className="my-1"
+          className="my-1 rounded"
           style={{ width: "10%" }}
           alt="Profile Pic"
         />
       </section>
       <section>
         <p>
-          My name is Jason Arritt. I was previously a SD-WAN Technical
-          Consulting Engineer at Cisco. I am working on becoming a Full Stack
-          Developer.
+          My name is Jason Arritt. I am originally from Southern California. In
+          my early twenties I joined the Army as an infantryman, which brought
+          me to North Carolina and I spent the following five years in the 82nd
+          Airborne Division. After my time on active duty in the Army, I was
+          accepted into Cisco's Veteran Talent Incubation Program, during which
+          I earned my CCNA. Following the completion of the six month VTIP
+          course in July of 2018 I began my employment at Cisco as a Technical
+          Consulting Engineer on the SD-WAN TAC team. In February of 2022 I
+          began the coding bootcamp at the University of North Carolina at
+          Chapel Hill. I am currently working on completing the bootcamp and
+          becoming a full-stack web developer.
         </p>
       </section>
     </div>
