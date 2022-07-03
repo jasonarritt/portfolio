@@ -20,7 +20,7 @@ THEN I am presented with the corresponding section below the navigation without 
             <a href="#portfolio">Portfolio</a>
           </li>
           <li className="mx-2">
-            <a href="#contact">Contact</a>
+            <a href="#contact-form">Contact</a>
           </li>
           <li className="mx-2">
             <a href="#resume">Resume</a>
