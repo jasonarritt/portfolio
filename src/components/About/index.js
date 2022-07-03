@@ -2,6 +2,8 @@ import React from "react";
 // import Background from "../../assets/images/Background.jpg";
 import ProfilePic from "../../assets/images/Profile-Pic.jpg";
 
+// WHEN I am presented with the About Me section
+// THEN I see a recent photo or avatar of the developer and a short bio about them
 function About() {
   return (
     <div>
@@ -11,7 +13,7 @@ function About() {
           src={ProfilePic}
           className="my-1 rounded"
           style={{ width: "10%" }}
-          alt="Profile Pic"
+          alt="Jason Arritt wearing a blue collared shirt"
         />
       </section>
       <section>

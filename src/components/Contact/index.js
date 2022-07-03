@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import { validateEmail } from "../../utils/helpers";
 
+// WHEN I am presented with the Contact section
+// THEN I see a contact form with fields for a name, an email address, and a message
 function ContactForm() {
   const [errorMessage, setErrorMessage] = useState("");
   const [formState, setFormState] = useState({
@@ -10,7 +12,11 @@ function ContactForm() {
   });
   const { name, email, message } = formState;
 
+  // WHEN I move my cursor out of one of the form fields without entering text
+  // THEN I receive a notification that this field is required
   function handleChange(e) {
+    // WHEN I enter text into the email address field
+    // THEN I receive a notification if I have entered an invalid email address
     if (e.target.name === "email") {
       const isValid = validateEmail(e.target.value);
       console.log(isValid);

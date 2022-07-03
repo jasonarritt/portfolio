@@ -4,6 +4,10 @@ import About from "./components/About";
 import ContactForm from "./components/Contact";
 // import Portfolio from "./components/Portfolio";
 // import Resume from "./components/Resume";
+import Footer from "./components/Footer";
+
+// WHEN I load the portfolio the first time
+// THEN the About Me title and section are selected by default
 
 function App() {
   return (
@@ -13,6 +17,7 @@ function App() {
         <About></About>
         <ContactForm></ContactForm>
       </main>
+      <Footer></Footer>
     </div>
   );
 }
