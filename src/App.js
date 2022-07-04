@@ -2,7 +2,7 @@ import React from "react";
 import Nav from "./components/Nav";
 import About from "./components/About";
 import ContactForm from "./components/Contact";
-// import Portfolio from "./components/Portfolio";
+import Portfolio from "./components/Portfolio";
 import Resume from "./components/Resume";
 import Footer from "./components/Footer";
 
@@ -17,6 +17,7 @@ function App() {
         <About></About>
         <ContactForm></ContactForm>
         <Resume></Resume>
+        <Portfolio></Portfolio>
       </main>
       <Footer></Footer>
     </div>
