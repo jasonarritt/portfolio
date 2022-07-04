@@ -5,7 +5,7 @@ import React from "react";
 function Footer() {
   return (
     <footer>
-      <ul>
+      <ul className="flex flex-row justify-around">
         <li>
           <a href="https://github.com/jasonarritt">GitHub</a>
         </li>

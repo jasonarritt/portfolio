@@ -8,24 +8,26 @@ function Resume() {
       <section>
         <h1 id="resume">Resume</h1>
       </section>
-      <section>
-        <h3>Front End Skills</h3>
-        <ul>
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>JavaScript</li>
-          <li>React</li>
-        </ul>
-      </section>
-      <section>
-        <h3>Back End Skills</h3>
-        <ul>
-          <li>Node.js</li>
-          <li>Express</li>
-          <li>SQL</li>
-          <li>MongoDB</li>
-        </ul>
-      </section>
+      <div id="skills" className="flex flex-row m-auto">
+        <section>
+          <h3>Front End Skills</h3>
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>React</li>
+          </ul>
+        </section>
+        <section>
+          <h3>Back End Skills</h3>
+          <ul>
+            <li>Node.js</li>
+            <li>Express</li>
+            <li>SQL</li>
+            <li>MongoDB</li>
+          </ul>
+        </section>
+      </div>
       <section>
         <p>
           <a
