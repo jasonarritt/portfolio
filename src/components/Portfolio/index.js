@@ -70,10 +70,14 @@ function Portfolio() {
                 <h3>{project.title}</h3>
               )}
             </div>
-            <img src={project.image} alt={project.imageAlt} />
-            <a href={project.githubLink} target="_blank" rel="noreferrer">
-              GitHub Repository
-            </a>
+            <div className="project-image">
+              <img src={project.image} alt={project.imageAlt} />
+            </div>
+            <div className="project-github-link">
+              <a href={project.githubLink} target="_blank" rel="noreferrer">
+                GitHub Repository
+              </a>
+            </div>
           </article>
         ))}
       </div>
