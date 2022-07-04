@@ -1,4 +1,5 @@
 import React from "react";
+import Project from "../Project";
 import LiveHire from "../../assets/images/Live-Hire.png";
 import FanFood from "../../assets/images/Fan-Food.png";
 import Budgeted from "../../assets/images/Budgeted.png";
@@ -60,25 +61,7 @@ function Portfolio() {
       </h1>
       <div className="projects flex flex-row">
         {projectArray.map((project) => (
-          <article className="project-card mt-10" key={project.name}>
-            <div className="project-title">
-              {project.deployedLink.length > 0 ? (
-                <a href={project.deployedLink} target="_blank" rel="noreferrer">
-                  <h3>{project.title}</h3>
-                </a>
-              ) : (
-                <h3>{project.title}</h3>
-              )}
-            </div>
-            <div className="project-image">
-              <img src={project.image} alt={project.imageAlt} />
-            </div>
-            <div className="project-github-link">
-              <a href={project.githubLink} target="_blank" rel="noreferrer">
-                GitHub Repository
-              </a>
-            </div>
-          </article>
+          <Project key={project.title} project={project} />
         ))}
       </div>
     </section>
