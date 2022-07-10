@@ -1,6 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
+import { capitalizeFirstLetter } from "../utils/helpers";
 
 function Nav() {
+  const tabs = [];
+
   return (
     <div>
       {/* WHEN I view the navigation titles
