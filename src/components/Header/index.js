@@ -1,19 +1,14 @@
-import React, { useState } from "react";
+import React from "react";
 import Nav from "../Nav";
 
-function Header() {
-  const tabs = ["About", "Contact", "Resume", "Portfolio"];
-  const [currentTab, setCurrentTab] = useState(tabs[0]);
+function Header(props) {
+  const { currentTab, setCurrentTab } = props;
   return (
     // WHEN I view the header
     // THEN I am presented with the developer's name and navigation with titles corresponding to different sections of the portfolio
     <header className="flex flex-row justify-content-between">
       <h1>Jason Arritt</h1>
-      <Nav
-        tabs={tabs}
-        currentTab={currentTab}
-        setCurrentTab={setCurrentTab}
-      ></Nav>
+      <Nav currentTab={currentTab} setCurrentTab={setCurrentTab}></Nav>
     </header>
   );
 }

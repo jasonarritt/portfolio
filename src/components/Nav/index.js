@@ -1,13 +1,8 @@
-import React, { useEffect } from "react";
-import { capitalizeFirstLetter } from "../../utils/helpers";
+import React from "react";
 
 function Nav(props) {
-  const { tabs = [], setCurrentTab, currentTab } = props;
-
-  useEffect(() => {
-    document.tab = capitalizeFirstLetter(currentTab);
-  }, [currentTab]);
-
+  const { currentTab, setCurrentTab } = props;
+  const tabs = ["About", "Contact", "Resume", "Portfolio"];
   return (
     <div>
       {/* WHEN I view the navigation titles
@@ -25,7 +20,7 @@ THEN I am presented with the corresponding section below the navigation without 
                   currentTab === tab ? "nav-link navActive" : "nav-link"
                 }`}
               >
-                {capitalizeFirstLetter(tab)}
+                {tab}
               </a>
             </li>
           ))}

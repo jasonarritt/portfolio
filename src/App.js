@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Header from "./components/Header";
 import About from "./components/About";
 import ContactForm from "./components/Contact";
@@ -10,14 +10,16 @@ import Footer from "./components/Footer";
 // THEN the About Me title and section are selected by default
 
 function App() {
+  const [currentTab, setCurrentTab] = useState("About");
+
   return (
     <div>
-      <Header></Header>
+      <Header currentTab={currentTab} setCurrentTab={setCurrentTab}></Header>
       <main>
-        <About></About>
-        <ContactForm></ContactForm>
-        <Resume></Resume>
-        <Portfolio></Portfolio>
+        {currentTab === "About" && <About />}
+        {currentTab === "Contact" && <ContactForm />}
+        {currentTab === "Portfolio" && <Portfolio />}
+        {currentTab === "Resume" && <Resume />}
       </main>
       <Footer></Footer>
     </div>
