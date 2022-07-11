@@ -1,8 +1,11 @@
-import React, { useState } from "react";
-import { capitalizeFirstLetter } from "../utils/helpers";
+import React, { useEffect } from "react";
+import { capitalizeFirstLetter } from "../../utils/helpers";
 
-function Nav() {
-  const tabs = [];
+function Nav(props) {
+  const { tabs = [], setCurrentTab, currentTab } = props;
+  useEffect(() => {
+    document.title = capitalizeFirstLetter(currentTab.name);
+  }, [currentTab]);
 
   return (
     <div>
@@ -12,18 +15,20 @@ THEN I am presented with the titles About Me, Portfolio, Contact, and Resume, an
 THEN I am presented with the corresponding section below the navigation without the page reloading and that title is highlighted */}
       <nav>
         <ul className="flex-row align-right">
-          <li className="mx-2">
-            <a href="#about">About Me</a>
-          </li>
-          <li className="mx-2">
-            <a href="#portfolio">Portfolio</a>
-          </li>
-          <li className="mx-2">
-            <a href="#contact-form">Contact</a>
-          </li>
-          <li className="mx-2">
-            <a href="#resume">Resume</a>
-          </li>
+          {tabs.map((tab) => (
+            <li
+              className={`mx-1 ${currentTab.name === tab.name && "navActive"}`}
+              key={tab.name}
+            >
+              <span
+                onClick={() => {
+                  setCurrentTab(tab);
+                }}
+              >
+                {capitalizeFirstLetter(tab.name)}
+              </span>
+            </li>
+          ))}
         </ul>
       </nav>
     </div>
