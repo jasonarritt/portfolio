@@ -2,4 +2,4 @@
 
 ## Description
 
-This version of my portfolio was created using React.
+This version of my portfolio was built using Create-React-App.
