@@ -50,7 +50,7 @@ function ContactForm() {
   return (
     <section>
       <h1 data-testid="ContactForm">Contact me</h1>
-      <form id="contact-form" onSubmit={handleSubmit}>
+      <form id="contact" onSubmit={handleSubmit}>
         <div>
           <label htmlFor="name">Name:</label>
           <input

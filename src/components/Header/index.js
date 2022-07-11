@@ -2,12 +2,7 @@ import React, { useState } from "react";
 import Nav from "../Nav";
 
 function Header() {
-  const [tabs] = useState([
-    { name: "About" },
-    { name: "Contact" },
-    { name: "Resume" },
-    { name: "Portfolio" },
-  ]);
+  const tabs = ["About", "Contact", "Resume", "Portfolio"];
   const [currentTab, setCurrentTab] = useState(tabs[0]);
   return (
     // WHEN I view the header
