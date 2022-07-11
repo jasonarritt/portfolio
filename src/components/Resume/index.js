@@ -6,9 +6,11 @@ function Resume() {
   return (
     <div>
       <section>
-        <h1 id="resume">Resume</h1>
+        <h1 id="resume" className="center">
+          Resume
+        </h1>
       </section>
-      <div id="skills" className="flex flex-row m-auto">
+      <div id="skills" className="flex flex-row space-around">
         <section>
           <h3>Front End Skills</h3>
           <ul>
@@ -29,7 +31,7 @@ function Resume() {
         </section>
       </div>
       <section>
-        <p>
+        <p className="center">
           <a
             href="https://docs.google.com/document/d/1ckr3ayiPUS_9V6JDaVzqbfsxm0zJMvn4/edit?usp=sharing&ouid=102039981224698088055&rtpof=true&sd=true"
             target="_blank"

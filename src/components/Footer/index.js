@@ -5,20 +5,14 @@ import React from "react";
 function Footer() {
   return (
     <footer>
-      <ul className="flex flex-row justify-around">
-        <li>
-          <a href="https://github.com/jasonarritt">GitHub</a>
-        </li>
-        <li>
-          <a href="https://www.linkedin.com/in/jasonarritt/">LinkedIn</a>
-        </li>
-        <li>
-          <a href="https://stackoverflow.com/users/18031660/jasonarritt">
-            Stack Overflow
-          </a>
-        </li>
-      </ul>
-      <p>&copy; 2022 Jason Arritt</p>
+      <section className="flex flex-row space-around">
+        <a href="https://github.com/jasonarritt">GitHub</a>
+        <a href="https://www.linkedin.com/in/jasonarritt/">LinkedIn</a>
+        <a href="https://stackoverflow.com/users/18031660/jasonarritt">
+          Stack Overflow
+        </a>
+      </section>
+      {/* <p>&copy; 2022 Jason Arritt</p> */}
     </footer>
   );
 }

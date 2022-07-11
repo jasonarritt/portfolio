@@ -33,12 +33,13 @@ function Portfolio() {
       deployedLink: "https://jasonarritt-budgeted.herokuapp.com/",
     },
     {
-      title: "Think About It",
-      image: ThinkAboutIt,
-      imageAlt: "Think About Insomnia routes",
-      githubLink: "https://github.com/jasonarritt/think-about-it",
+      title: "README.md Doctor",
+      image: READMEDoctor,
+      imageAlt: "README.md Doctor GitHub repository README",
+      githubLink: "https://github.com/jasonarritt/README.md-doctor",
       deployedLink: "",
     },
+
     {
       title: "TRACK-EMployee",
       image: TRACKEMployee,
@@ -47,21 +48,23 @@ function Portfolio() {
       deployedLink: "",
     },
     {
-      title: "README.md Doctor",
-      image: READMEDoctor,
-      imageAlt: "README.md Doctor GitHub repository README",
-      githubLink: "https://github.com/jasonarritt/README.md-doctor",
+      title: "Think About It",
+      image: ThinkAboutIt,
+      imageAlt: "Think About Insomnia routes",
+      githubLink: "https://github.com/jasonarritt/think-about-it",
       deployedLink: "",
     },
   ];
   return (
     <section>
-      <h1 id="portfolio" data-testid="Portfolio">
+      <h1 id="portfolio" className="center" data-testid="Portfolio">
         Portfolio
       </h1>
-      <div className="projects flex flex-row">
+      <div className="projects flex flex-row space-around">
         {projectArray.map((project) => (
-          <Project key={project.title} project={project} />
+          <div className="card">
+            <Project key={project.title} project={project} />
+          </div>
         ))}
       </div>
     </section>

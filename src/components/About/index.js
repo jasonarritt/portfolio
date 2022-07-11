@@ -7,12 +7,14 @@ import ProfilePic from "../../assets/images/Profile-Pic.jpg";
 function About() {
   return (
     <div>
-      <section className="flex flex-row m-auto">
-        <h1 id="about">About Me</h1>
+      <section className="flex flex-row space-around">
+        <h1 id="about" className="center">
+          About Me
+        </h1>
         <img
           src={ProfilePic}
-          className="my-1 rounded"
-          style={{ width: "10%" }}
+          className="img-profile"
+          // style={{ width: "20%" }}
           alt="Jason Arritt wearing a blue collared shirt"
         />
       </section>
