@@ -1,5 +1,6 @@
 import React from "react";
 import Project from "../Project";
+import ChasingDreams from "../../assets/images/Chasing-Dreams.png";
 import LiveHire from "../../assets/images/Live-Hire.png";
 import FanFood from "../../assets/images/Fan-Food.png";
 import Budgeted from "../../assets/images/Budgeted.png";
@@ -11,6 +12,13 @@ import READMEDoctor from "../../assets/images/README-Doctor.png";
 // THEN I see titled images of six of the developer’s applications with links to both the deployed applications and the corresponding GitHub repository
 function Portfolio() {
   const projectArray = [
+    {
+      title: "Chasing Dreams",
+      image: ChasingDreams,
+      imageAlt: "Chasing Dreams home page",
+      githubLink: "https://github.com/Mikekuney/Chasing-Dreams",
+      deployedLink: "https://chasing-dreams.herokuapp.com/",
+    },
     {
       title: "Live Hire",
       image: LiveHire,
