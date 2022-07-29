@@ -1,6 +1,6 @@
 {
-  "homepage": "http://jasonarritt.github.io/professional-portfolio-vol-2",
-  "name": "professional-portfolio-vol-2",
+  "homepage": "http://jasonarritt.github.io/portfolio/",
+  "name": "portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
