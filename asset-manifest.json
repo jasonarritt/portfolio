@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/professional-portfolio-vol-2/static/css/main.db4f12c0.css",
-    "main.js": "/professional-portfolio-vol-2/static/js/main.7a5cdea5.js",
-    "static/js/787.219e1409.chunk.js": "/professional-portfolio-vol-2/static/js/787.219e1409.chunk.js",
-    "static/media/Chasing-Dreams.png": "/professional-portfolio-vol-2/static/media/Chasing-Dreams.91ce65f2e09f5363a6f1.png",
-    "static/media/Live-Hire.png": "/professional-portfolio-vol-2/static/media/Live-Hire.7dba0459f829f2f223bf.png",
-    "static/media/TRACK-EMployee.png": "/professional-portfolio-vol-2/static/media/TRACK-EMployee.faccae545f3fc27d9e71.png",
-    "static/media/Fan-Food.png": "/professional-portfolio-vol-2/static/media/Fan-Food.3bc3b1951296281be43a.png",
-    "static/media/Think-About-It.png": "/professional-portfolio-vol-2/static/media/Think-About-It.29104ef8eac41704eb41.png",
-    "static/media/Budgeted.png": "/professional-portfolio-vol-2/static/media/Budgeted.472c03fcca1c8407eddd.png",
-    "static/media/README-Doctor.png": "/professional-portfolio-vol-2/static/media/README-Doctor.03a4b6f5df19bbcad651.png",
-    "static/media/Profile-Pic.jpg": "/professional-portfolio-vol-2/static/media/Profile-Pic.9e43034c3cf97c5afb2a.jpg",
-    "index.html": "/professional-portfolio-vol-2/index.html",
-    "main.db4f12c0.css.map": "/professional-portfolio-vol-2/static/css/main.db4f12c0.css.map",
-    "main.7a5cdea5.js.map": "/professional-portfolio-vol-2/static/js/main.7a5cdea5.js.map",
-    "787.219e1409.chunk.js.map": "/professional-portfolio-vol-2/static/js/787.219e1409.chunk.js.map"
+    "main.css": "/portfolio/static/css/main.db4f12c0.css",
+    "main.js": "/portfolio/static/js/main.3913ae7d.js",
+    "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/Chasing-Dreams.png": "/portfolio/static/media/Chasing-Dreams.91ce65f2e09f5363a6f1.png",
+    "static/media/Live-Hire.png": "/portfolio/static/media/Live-Hire.7dba0459f829f2f223bf.png",
+    "static/media/TRACK-EMployee.png": "/portfolio/static/media/TRACK-EMployee.faccae545f3fc27d9e71.png",
+    "static/media/Fan-Food.png": "/portfolio/static/media/Fan-Food.3bc3b1951296281be43a.png",
+    "static/media/Think-About-It.png": "/portfolio/static/media/Think-About-It.29104ef8eac41704eb41.png",
+    "static/media/Budgeted.png": "/portfolio/static/media/Budgeted.472c03fcca1c8407eddd.png",
+    "static/media/README-Doctor.png": "/portfolio/static/media/README-Doctor.03a4b6f5df19bbcad651.png",
+    "static/media/Profile-Pic.jpg": "/portfolio/static/media/Profile-Pic.9e43034c3cf97c5afb2a.jpg",
+    "index.html": "/portfolio/index.html",
+    "main.db4f12c0.css.map": "/portfolio/static/css/main.db4f12c0.css.map",
+    "main.3913ae7d.js.map": "/portfolio/static/js/main.3913ae7d.js.map",
+    "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.db4f12c0.css",
-    "static/js/main.7a5cdea5.js"
+    "static/js/main.3913ae7d.js"
   ]
 }
