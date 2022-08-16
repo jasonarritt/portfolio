@@ -33,13 +33,12 @@ function Resume() {
       <section>
         <p className="center">
           <a
-            href="https://docs.google.com/document/d/1ckr3ayiPUS_9V6JDaVzqbfsxm0zJMvn4/edit?usp=sharing&ouid=102039981224698088055&rtpof=true&sd=true"
+            href="https://docs.google.com/document/d/1sYYluQ0S-vzDAA_rU0BRdx4_DXUT4rWS/edit?usp=sharing&ouid=102039981224698088055&rtpof=true&sd=true"
             target="_blank"
             rel="noreferrer"
           >
             View Resume
           </a>
-          (Needs to be updated)
         </p>
       </section>
     </div>
