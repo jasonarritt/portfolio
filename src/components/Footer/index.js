@@ -6,10 +6,38 @@ function Footer() {
   return (
     <footer>
       <section className="flex flex-row space-around">
-        <a href="https://github.com/jasonarritt">GitHub</a>
-        <a href="https://www.linkedin.com/in/jasonarritt/">LinkedIn</a>
-        <a href="https://stackoverflow.com/users/18031660/jasonarritt">
-          Stack Overflow
+        <a
+          href="https://github.com/jasonarritt"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img
+            src={require("../../assets/logos/octocat.png")}
+            alt="GitHub"
+            className="logos"
+          ></img>
+        </a>
+        <a
+          href="https://www.linkedin.com/in/jasonarritt/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img
+            src={require("../../assets/logos/linkedin.png")}
+            alt="linkedin"
+            className="logos"
+          ></img>
+        </a>
+        <a
+          href="https://stackoverflow.com/users/18031660/jasonarritt"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img
+            src={require("../../assets/logos/stackoverflow.png")}
+            alt="stackoverflow"
+            className="logos"
+          ></img>
         </a>
       </section>
       {/* <p>&copy; 2022 Jason Arritt</p> */}
