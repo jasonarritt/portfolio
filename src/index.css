@@ -89,6 +89,7 @@ a:hover {
 }
 
 header {
+  margin-top: 5px;
   background-image: url(../src/assets/images/polly-background-1631651.jpg);
 }
 
@@ -163,7 +164,8 @@ textarea {
 }
 
 footer {
-  padding-bottom: 40px;
+  background-color: var(--primary);
+  padding: 10px 0px;
 }
 
 .logos {
@@ -303,7 +305,7 @@ footer {
 }
 
 button {
-  background: var(--primary);
+  background: var(--secondary);
   border: 0;
   border-radius: 5px;
   color: #fff;
