@@ -34,7 +34,7 @@ function About() {
           In July of 2022 I successfully completed the coding bootcamp at the
           University of North Carolina at Chapel Hill. I have always had passion
           for technology and learning as much as I can. I am currently seeking
-          employment as a full-stack web developer. I have a enjoy seeking
+          employment as a full-stack web developer. I greatly enjoy seeking
           solutions to problems and sharing the knowledge I have gained with
           others.
         </p>
