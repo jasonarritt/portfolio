@@ -202,6 +202,7 @@ footer {
 
 .space-around {
   justify-content: space-around;
+  align-items: center;
 }
 
 .flex-end {

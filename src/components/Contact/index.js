@@ -52,44 +52,59 @@ function ContactForm() {
       <h1 data-testid="ContactForm" className="center">
         Contact me
       </h1>
-      <h3>(Does not yet work!)</h3>
-      <form id="contact" onSubmit={handleSubmit}>
-        <div>
-          <label htmlFor="name">Name:</label>
-          <input
-            type="text"
-            defaultValue={name}
-            onBlur={handleChange}
-            name="name"
-          />
-        </div>
-        <div>
-          <label htmlFor="email">Email address:</label>
-          <input
-            type="email"
-            defaultValue={email}
-            onBlur={handleChange}
-            name="email"
-          />
-        </div>
-        <div>
-          <label htmlFor="message">Message:</label>
-          <textarea
-            name="message"
-            defaultValue={message}
-            onBlur={handleChange}
-            rows="5"
-          />
-        </div>
-        {errorMessage && (
-          <div>
-            <p className="error-text">{errorMessage}</p>
-          </div>
-        )}
-        <button type="submit" data-testid="Submit">
-          Submit
-        </button>
-      </form>
+      <div className="flex flex-row space-around">
+        {/* <section>
+          <h3>(Does not yet work!)</h3>
+          <form id="contact" onSubmit={handleSubmit}>
+            <div>
+              <label htmlFor="name">Name:</label>
+              <input
+                type="text"
+                defaultValue={name}
+                onBlur={handleChange}
+                name="name"
+              />
+            </div>
+            <div>
+              <label htmlFor="email">Email address:</label>
+              <input
+                type="email"
+                defaultValue={email}
+                onBlur={handleChange}
+                name="email"
+              />
+            </div>
+            <div>
+              <label htmlFor="message">Message:</label>
+              <textarea
+                name="message"
+                defaultValue={message}
+                onBlur={handleChange}
+                rows="5"
+              />
+            </div>
+            {errorMessage && (
+              <div>
+                <p className="error-text">{errorMessage}</p>
+              </div>
+            )}
+            <button type="submit" data-testid="Submit">
+              Submit
+            </button>
+          </form>
+        </section> */}
+        <section>
+          <button type="button" className="">
+            <a
+              href="mailto:jason.a.arritt@gmail.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Send Me an Email
+            </a>
+          </button>
+        </section>
+      </div>
     </section>
   );
 }

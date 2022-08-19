@@ -46,16 +46,18 @@ function Resume() {
           </ul>
         </section>
       </div>
-      <section>
-        <h4 className="center">
-          <a
-            href="https://docs.google.com/document/d/1sYYluQ0S-vzDAA_rU0BRdx4_DXUT4rWS/edit?usp=sharing&ouid=102039981224698088055&rtpof=true&sd=true"
-            target="_blank"
-            rel="noreferrer"
-          >
-            View Resume
-          </a>
-        </h4>
+      <section className="center">
+        <button type="button">
+          <h4 className="">
+            <a
+              href="https://docs.google.com/document/d/1sYYluQ0S-vzDAA_rU0BRdx4_DXUT4rWS/edit?usp=sharing&ouid=102039981224698088055&rtpof=true&sd=true"
+              target="_blank"
+              rel="noreferrer"
+            >
+              View Full Resume
+            </a>
+          </h4>
+        </button>
       </section>
     </div>
   );
