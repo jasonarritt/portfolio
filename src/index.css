@@ -1,10 +1,10 @@
 main {
   margin: 0 auto;
   max-width: 90%;
-  padding: 50px 30px;
+  padding: 25px 0px;
 }
 :root {
-  --primary: #268ddf;
+  --primary: rgb(241, 222, 131);
   --secondary: #f3a847;
   --tertiary: #b12704;
   --light: #fafafa;
@@ -34,7 +34,7 @@ body {
   letter-spacing: 0.1em;
   background-image: url(../src/assets/images/polly-background-1631651.jpg);
   color: var(--light);
-  font-family: "Poiret One", cursive;
+  font-family: "Roboto", sans-serif;
 }
 
 h1,
@@ -43,7 +43,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Roboto", sans-serif;
+  /* font-family: "Roboto", sans-serif; */
   font-weight: 500;
   margin: 5px 0;
   line-height: 1.25;
@@ -179,6 +179,16 @@ footer {
   margin-right: auto;
 }
 
+.project-card {
+  border-radius: 5%;
+  padding: 10px 25px;
+}
+
+.project-card:hover {
+  background-color: rgba(36, 55, 227, 0.3);
+  border: solid 1px var(--light);
+}
+
 .flex-row {
   display: flex;
   flex-wrap: wrap;
@@ -242,9 +252,9 @@ footer {
 }
 
 .card {
-  width: 40%;
+  width: 48%;
   text-align: center;
-  margin: auto;
+  margin: 10px auto;
 }
 
 .center {
@@ -314,5 +324,5 @@ a {
 }
 
 .navActive {
-  color: var(--secondary);
+  color: var(--primary);
 }

@@ -18,12 +18,12 @@ function Project({ project }) {
           alt={project.imageAlt}
           className="img-thumbnail-mx1"
         />
-        <p>{project.tools}</p>
+        <h6>{project.tools}</h6>
       </div>
       <div className="project-github-link">
         <h4>
           <a href={project.githubLink} target="_blank" rel="noreferrer">
-            GitHub Repository
+            View Repository
           </a>
         </h4>
       </div>
