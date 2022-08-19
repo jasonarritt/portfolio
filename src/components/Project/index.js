@@ -6,10 +6,10 @@ function Project({ project }) {
       <div className="project-title">
         {project.deployedLink.length > 0 ? (
           <a href={project.deployedLink} target="_blank" rel="noreferrer">
-            <h3>{project.title}</h3>
+            <h2>{project.title}</h2>
           </a>
         ) : (
-          <h3>{project.title}</h3>
+          <h2>{project.title}</h2>
         )}
       </div>
       <div className="project-image">
@@ -18,11 +18,14 @@ function Project({ project }) {
           alt={project.imageAlt}
           className="img-thumbnail-mx1"
         />
+        <p>{project.tools}</p>
       </div>
       <div className="project-github-link">
-        <a href={project.githubLink} target="_blank" rel="noreferrer">
-          GitHub Repository
-        </a>
+        <h4>
+          <a href={project.githubLink} target="_blank" rel="noreferrer">
+            GitHub Repository
+          </a>
+        </h4>
       </div>
     </article>
   );
