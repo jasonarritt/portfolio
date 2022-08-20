@@ -8,9 +8,9 @@ function About() {
   return (
     <div>
       <section className="flex flex-row space-around">
-        <h1 id="about" className="center">
+        <h2 id="about" className="center">
           About Me
-        </h1>
+        </h2>
         <img
           src={ProfilePic}
           className="img-profile"

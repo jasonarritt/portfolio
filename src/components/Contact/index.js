@@ -49,9 +49,9 @@ function ContactForm() {
   // JSX
   return (
     <section>
-      <h1 data-testid="ContactForm" className="center">
+      <h2 data-testid="ContactForm" className="center">
         Contact Me
-      </h1>
+      </h2>
       <div className="flex flex-row space-around">
         {/* <section>
           <h3>(Does not yet work!)</h3>

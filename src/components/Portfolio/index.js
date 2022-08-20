@@ -75,12 +75,12 @@ function Portfolio() {
   ];
   return (
     <section>
-      <h1 id="portfolio" className="center" data-testid="Portfolio">
+      <h2 id="portfolio" className="center" data-testid="Portfolio">
         Portfolio
-      </h1>
-      <div className="projects flex flex-row space-around">
+      </h2>
+      <div className="flex flex-row space-around">
         {projectArray.map((project) => (
-          <div className="card">
+          <div className="">
             <Project key={project.title} project={project} />
           </div>
         ))}

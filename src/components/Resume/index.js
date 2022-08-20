@@ -6,13 +6,13 @@ function Resume() {
   return (
     <div>
       <section>
-        <h1 id="resume" className="center">
+        <h2 id="resume" className="center">
           Resume
-        </h1>
+        </h2>
       </section>
       <div id="skills" className="flex flex-row space-around">
         <section>
-          <h3>Front End Skills</h3>
+          <h3>Front End</h3>
           <ul>
             <li>React.js</li>
             <li>HTML5</li>
@@ -23,7 +23,7 @@ function Resume() {
           </ul>
         </section>
         <section>
-          <h3>Back End Skills</h3>
+          <h3>Back End</h3>
           <ul>
             <li>Node.js</li>
             <li>Express.js</li>

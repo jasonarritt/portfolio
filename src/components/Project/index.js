@@ -2,7 +2,10 @@ import React from "react";
 
 function Project({ project }) {
   return (
-    <article className="project-card w-50 col-md-4 col-sm-6" key={project.name}>
+    <article
+      className="project-card w-50 col-md-4 col-sm-12"
+      key={project.name}
+    >
       <div className="project-title">
         {project.deployedLink.length > 0 ? (
           <a href={project.deployedLink} target="_blank" rel="noreferrer">
