@@ -7,7 +7,7 @@ function Resume() {
     <div>
       <section>
         <h2 id="resume" className="center">
-          Resume
+          My Skills
         </h2>
       </section>
       <div id="skills" className="flex flex-row space-around">
@@ -43,6 +43,9 @@ function Resume() {
             <li>Jest</li>
             <li>Heroku</li>
             <li>Atlas</li>
+            <li>Linux</li>
+            <li>Python</li>
+            {/* <li>"Bowstaff"</li> */}
           </ul>
         </section>
       </div>

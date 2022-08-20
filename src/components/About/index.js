@@ -9,7 +9,7 @@ function About() {
     <div>
       <section className="flex flex-row space-around">
         <h2 id="about" className="center">
-          About Me
+          Hey there!
         </h2>
         <img
           src={ProfilePic}
@@ -20,15 +20,15 @@ function About() {
       </section>
       <section>
         <p>
-          Hey there! My name is Jason Arritt. I am originally from Southern
-          California. In my early twenties I joined the Army as an infantryman,
-          which brought me to North Carolina and I spent the following five
-          years in the 82nd Airborne Division out of Fort Bragg. After my time
-          on active duty in the Army, I was accepted into Cisco's Veteran Talent
-          Incubation Program, during which I earned my CCNA. Following the
-          completion of the six month VTIP course, in July of 2018 I began my
-          employment at Cisco as a Technical Consulting Engineer on the SD-WAN
-          TAC team, and also earned my CCNP Switch.
+          My name is Jason Arritt. I am originally from Southern California. In
+          my early twenties I joined the Army as an infantryman, which brought
+          me to North Carolina and I spent the following five years in the 82nd
+          Airborne Division out of Fort Bragg. After my time on active duty in
+          the Army, I was accepted into Cisco's Veteran Talent Incubation
+          Program, during which I earned my CCNA. Following the completion of
+          the six month VTIP course, in July of 2018 I began my employment at
+          Cisco as a Technical Consulting Engineer on the SD-WAN TAC team, and
+          also earned my CCNP Switch.
         </p>
         <p>
           In July of 2022 I successfully completed the coding bootcamp at the

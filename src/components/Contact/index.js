@@ -50,7 +50,7 @@ function ContactForm() {
   return (
     <section>
       <h2 data-testid="ContactForm" className="center">
-        Contact Me
+        Reach Out
       </h2>
       <div className="flex flex-row space-around">
         {/* <section>

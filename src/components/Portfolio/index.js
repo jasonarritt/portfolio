@@ -76,11 +76,11 @@ function Portfolio() {
   return (
     <section>
       <h2 id="portfolio" className="center" data-testid="Portfolio">
-        Portfolio
+        My Projects
       </h2>
       <div className="flex flex-row space-around">
         {projectArray.map((project) => (
-          <div className="">
+          <div className="m-2">
             <Project key={project.title} project={project} />
           </div>
         ))}
