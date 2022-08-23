@@ -53,6 +53,20 @@ function ContactForm() {
         Reach Out
       </h2>
       <div className="flex flex-row space-around">
+        <section>
+          <h4>Contact Info</h4>
+          {/* <p>Phone: 805.550.3734</p> */}
+          <p>
+            Email:{" "}
+            <a
+              href="mailto:jason.a.arritt@gmail.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              jason.a.arritt@gmail.com
+            </a>
+          </p>
+        </section>
         {/* <section>
           <h3>(Does not yet work!)</h3>
           <form id="contact" onSubmit={handleSubmit}>
@@ -100,7 +114,7 @@ function ContactForm() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              Send Me an Email
+              Quick Email
             </a>
           </button>
         </section>

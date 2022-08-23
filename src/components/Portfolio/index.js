@@ -14,6 +14,8 @@ function Portfolio() {
   const projectArray = [
     {
       title: "Chasing Dreams",
+      description:
+        "A travel destination application that provides users the ability to plan their dream vacations.",
       tools:
         "React.js, Node.js, Express.js, MongoDB, Mongoose, Graphql, bcrypt, JWT, Apollo, Bootstrap, Heroku, Opentripmap API, wikimedia API",
       image: ChasingDreams,
@@ -23,6 +25,8 @@ function Portfolio() {
     },
     {
       title: "Live Hire",
+      description:
+        "A social media platform for bringing entertainers and event coordinators together.",
       tools:
         "Node.js, Express.js, Handlebars.js, RESTful API, MySQL, Sequelize ORM, Bootstrap, Heroku, MVC",
       image: LiveHire,
@@ -32,6 +36,8 @@ function Portfolio() {
     },
     {
       title: "Fan Food",
+      description:
+        "Web application that allows users to search for events and find nearby places to spend time with others attending the event.",
       tools:
         "HTML5, CSS3, JavaScript, JQuery, Day.js, Bulma CSS, TicketMaster Discover API, Foursquare Places API",
       image: FanFood,
@@ -41,6 +47,8 @@ function Portfolio() {
     },
     {
       title: "Budgeted",
+      description:
+        "IndexedDB based progressive web application for budget tracking.",
       tools: "HTML5, CSS3, JavaScript, Node.js, Express.js, IndexedDB, PWA",
       image: Budgeted,
       imageAlt: "Budgeted home page",
@@ -58,6 +66,8 @@ function Portfolio() {
 
     {
       title: "TRACK-EMployee",
+      description:
+        "A MySQL and Node.js based application for tracking employees and their information.",
       tools: "Node.js, Express.js, MySQL, Inquirer",
       image: TRACKEMployee,
       imageAlt: "TRACK-EMployee menu",
@@ -66,6 +76,8 @@ function Portfolio() {
     },
     {
       title: "Think About It",
+      description:
+        "A MongoDB based social media application that allows users to share thoughts.",
       tools: "Node.js, Express.js, RESTful API, MongoDB, Mongoose",
       image: ThinkAboutIt,
       imageAlt: "Think About Insomnia routes",
