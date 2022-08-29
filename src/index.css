@@ -79,7 +79,14 @@ p {
 }
 
 a {
-  color: var(--tertiary);
+  color: var(--secondary);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.my-link a,
+.navbar-nav > a {
+  color: var(--secondary);
   text-decoration: none;
   font-weight: bold;
 }
@@ -93,11 +100,50 @@ header {
   background-image: url(../src/assets/images/polly-background-1631651.jpg);
 }
 
-header a {
+#name {
   color: var(--light);
+  font-weight: 500;
+  margin: 5px 0;
+  line-height: 1.25;
+  font-size: 2.25rem;
 }
 
-button {
+/* .navbar-brand {
+  color: var(--light);
+  font-weight: 500;
+  margin: 5px 0;
+  line-height: 1.25;
+  font-size: 2.25rem;
+} */
+
+.navbar-light .navbar-toggler {
+  border: 1px solid var(--light);
+}
+
+.navbar-light .navbar-toggler-icon {
+  border: 1px solid var(--light);
+  background-color: var(--light);
+}
+
+#about-nav,
+#contact-nav,
+#portfolio-nav,
+#resume-nav {
+  color: var(--light);
+  font-weight: 500;
+  margin: 5px 0;
+  line-height: 1.25;
+  font-size: 1.25rem;
+}
+
+#about-nav:hover,
+#contact-nav:hover,
+#portfolio-nav:hover,
+#resume-nav:hover {
+  color: var(--secondary);
+}
+
+.button {
   font-size: 1rem;
   text-decoration: none;
   padding: 0.25rem 1rem;
@@ -109,8 +155,27 @@ button {
   background-color: var(--secondary);
 }
 
+.button > a,
+.project-title > a,
+.project-github-link > a {
+  color: var(--light);
+  text-decoration: none;
+  font-weight: bold;
+  margin: 5px 0;
+  line-height: 1;
+  font-size: 2.25rem;
+}
+
+.button > a:hover,
+.project-title > a:hover,
+.project-github-link > a:hover {
+  color: var(--light);
+  text-decoration: underline;
+}
+
 button:hover {
   opacity: 0.8;
+  text-decoration: none;
 }
 
 button[disabled] {
@@ -166,6 +231,19 @@ textarea {
 footer {
   background-color: var(--primary);
   padding: 10px 0px;
+}
+
+.content {
+  padding: 0px 20px;
+}
+
+.light-text {
+  color: var(--light);
+}
+
+.my-nav .nav-link {
+  text-decoration: none;
+  color: var(--light);
 }
 
 .logos {
