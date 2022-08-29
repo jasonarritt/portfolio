@@ -92,7 +92,7 @@ function Portfolio() {
       </h2>
       <div className="flex flex-row space-around">
         {projectArray.map((project) => (
-          <div className="m-2">
+          <div className="">
             <Project key={project.title} project={project} />
           </div>
         ))}
